@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+p {
+  font-size: 8px;
+  line-height: 8px;
+  text-align: justify;
+
+  background: url("kuromica.jpg") no-repeat center / cover;
+  background-attachment: fixed;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
+  display: block;
+}
